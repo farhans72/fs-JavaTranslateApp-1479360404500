@@ -1,0 +1,10 @@
+applications:
+- path: target/JavaHelloWorldApp.war
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: fs-JavaTranslateApp
+  host: fs-JavaTranslateApp
+  disk_quota: 1024M
+  services:
+  - Language Translator-6n
